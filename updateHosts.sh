@@ -5,6 +5,4 @@ if grep -wFo ${input} hosts*; then
 else
 	echo "Not Found"
 	echo $first $1 >> hosts
-	git add hosts
-	git commit -m "update hosts"
 fi
